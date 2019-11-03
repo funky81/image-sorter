@@ -7,4 +7,4 @@ Just run go build
 Just to run image-sorter-golang.exe <source directory> <destination directory>
 
 ### notes
-run without bracker
+run without bracket
