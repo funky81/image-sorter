@@ -25,7 +25,7 @@ func fileWalk(path string, info os.FileInfo, err error) error {
 		return err
 	}
 	if info.IsDir() == false {
-		fmt.Println(path, info.Size())
+		//fmt.Println(path, info.Size())
 		time := info.ModTime()
 		newDirectory := outputDir + string(os.PathSeparator) + time.Format("2006-01-02") + string(os.PathSeparator)
 		if _, err := os.Stat(newDirectory); os.IsNotExist(err) {
