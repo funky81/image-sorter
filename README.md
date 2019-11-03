@@ -1,4 +1,4 @@
-# image-sorter
+# image-sorter-golang
 
 ## How to Build
 Just run go build
